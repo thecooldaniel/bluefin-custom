@@ -12,13 +12,13 @@ secondary-color='FFFFFF'
 [org/gnome/desktop/interface]
 enable-hot-corners=false
 clock-show-weekday=true
-cursor-theme="Yaru"
-icon-theme="Yaru-blue"
-gtk-theme="Yaru-blue"
+cursor-theme="Adwaita"
+icon-theme="Adwaita"
+gtk-theme="Adwaita"
 font-antialiasing="rgba"
-font-name="Ubuntu 12"
-document-font-name="Ubuntu 12"
-monospace-font-name="Ubuntu Mono 18"
+font-name="Noto Sans Medium 11"
+document-font-name="Noto Sans Medium 12"
+monospace-font-name="CommitMono 400Regular 12"
 
 [org/gnome/desktop/sound]
 allow-volume-above-100-percent=true
@@ -27,7 +27,7 @@ theme-name="freedesktop"
 [org/gnome/desktop/wm/preferences]
 button-layout=":minimize,maximize,close"
 num-workspaces='4'
-titlebar-font="Ubuntu Bold 12"
+titlebar-font="Noto Sans Medium 11"
 
 [org/gnome/desktop/wm/keybindings]
 switch-applications = ['<Super>Tab']
