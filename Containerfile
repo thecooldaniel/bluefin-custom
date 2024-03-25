@@ -194,12 +194,12 @@ RUN wget https://raw.githubusercontent.com/ahmetb/kubectx/master/kubectx -O /usr
     chmod +x /usr/bin/kubectx /usr/bin/kubens
 
 # Set up services
+# Removed: systemctl disable pmie.service && \
 RUN systemctl enable docker.socket && \
     systemctl enable podman.socket && \
     systemctl enable swtpm-workaround.service && \
     systemctl enable bluefin-dx-groups.service && \
     systemctl enable --global bluefin-dx-user-vscode.service && \
-    systemctl disable pmie.service && \
     systemctl disable pmlogger.service
 
 RUN /tmp/workarounds.sh
