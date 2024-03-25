@@ -116,9 +116,23 @@
 				"gnome-extensions-app",
 				"gnome-software-rpm-ostree",
 				"gnome-tour",
-				"ublue-os-update-services"
+				"ublue-os-update-services",
+				"cockpit-bridge",
+				"epson-inkjet-printer-escpr",
+				"epson-inkjet-printer-escpr2",
+				"gnome-shell-extension-gsconnect",
+				"libimobiledevice",
 			],
-			"bluefin-dx": []
+			"bluefin-dx": [
+				"cockpit-machines",
+				"cockpit-networkmanager",
+				"cockpit-ostree",
+				"cockpit-pcp",
+				"cockpit-podman",
+				"cockpit-selinux",
+				"cockpit-storaged",
+				"cockpit-system"
+			]
 		}
 	},
 	"38": {
