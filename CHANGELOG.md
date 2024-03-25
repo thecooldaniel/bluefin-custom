@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/thecooldaniel/bluefin-custom/compare/v1.2.0...v1.2.1) (2024-03-25)
+
+
+### Bug Fixes
+
+* remove brew install, it's in config now ([#1042](https://github.com/thecooldaniel/bluefin-custom/issues/1042)) ([9af6d49](https://github.com/thecooldaniel/bluefin-custom/commit/9af6d4956497d58958a93c34b91c6a5e0eeeebbf))
+
 ## [1.2.0](https://github.com/thecooldaniel/bluefin-custom/compare/v2.0.0...v1.2.0) (2024-03-24)
 
 
