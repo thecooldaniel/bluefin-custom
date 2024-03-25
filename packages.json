@@ -4,7 +4,6 @@
 			"bluefin": [
 				"bash-color-prompt",
 				"bcache-tools",
-				"cockpit-bridge",
 				"evtest",
 				"fish",
 				"firewall-config",
@@ -52,14 +51,6 @@
 			"bluefin-dx": [
 				"adobe-source-code-pro-fonts",
 				"cascadia-code-fonts",
-				"cockpit-machines",
-				"cockpit-networkmanager",
-				"cockpit-ostree",
-				"cockpit-pcp",
-				"cockpit-podman",
-				"cockpit-selinux",
-				"cockpit-storaged",
-				"cockpit-system",
 				"code",
 				"containerd.io",
 				"dbus-x11",
