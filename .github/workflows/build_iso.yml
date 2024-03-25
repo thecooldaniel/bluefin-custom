@@ -29,12 +29,10 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        image_name: [bluefin, bluefin-nvidia, bluefin-asus, bluefin-asus-nvidia, bluefin-surface, bluefin-surface-nvidia, bluefin-dx, bluefin-dx-nvidia, bluefin-dx-asus, bluefin-dx-surface, bluefin-dx-asus-nvidia, bluefin-dx-surface-nvidia]
-        major_version: [38, 39]
-        image_tag: [latest, gts]
+        image_name: [bluefin-dx]
+        major_version: [39]
+        image_tag: [gts]
         exclude:
-          - major_version: 38
-            image_tag: latest
           - major_version: 39
             image_tag: gts
     steps:
