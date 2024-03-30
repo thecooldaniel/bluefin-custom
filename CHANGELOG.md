@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.3.0](https://github.com/thecooldaniel/bluefin-custom/compare/v1.2.1...v1.3.0) (2024-03-30)
+
+
+### Features
+
+* Add Fedora 40 builds to Bluefin ([#1041](https://github.com/thecooldaniel/bluefin-custom/issues/1041)) ([59dd5cb](https://github.com/thecooldaniel/bluefin-custom/commit/59dd5cbcc8d67fc760ae5e0d04f044c76da67330))
+* add ROCm support to -dx ([#1058](https://github.com/thecooldaniel/bluefin-custom/issues/1058)) ([dfdc9f7](https://github.com/thecooldaniel/bluefin-custom/commit/dfdc9f7c33865c94cf343c5c39a74d4e64e9422d))
+* create FUNDING.yml ([#1052](https://github.com/thecooldaniel/bluefin-custom/issues/1052)) ([9278b06](https://github.com/thecooldaniel/bluefin-custom/commit/9278b066306508fdd217cabdee22d0d3f2d144c1))
+
+
+### Bug Fixes
+
+* change this into a welcome message ([#1063](https://github.com/thecooldaniel/bluefin-custom/issues/1063)) ([3d4debc](https://github.com/thecooldaniel/bluefin-custom/commit/3d4debc818ccddadb2d0bebd547eb3460c9f9010))
+* remove gnome touch extensions ([#1045](https://github.com/thecooldaniel/bluefin-custom/issues/1045)) ([260a64a](https://github.com/thecooldaniel/bluefin-custom/commit/260a64abb4c6d7cd3c275f03d04cde6fdc516c04))
+* remove old yafti ([#1051](https://github.com/thecooldaniel/bluefin-custom/issues/1051)) ([e7edb3c](https://github.com/thecooldaniel/bluefin-custom/commit/e7edb3c8f5356cc5c9e4b71f79286661aaa50da2))
+* source docker-compose from one place ([#1066](https://github.com/thecooldaniel/bluefin-custom/issues/1066)) ([df3fdb7](https://github.com/thecooldaniel/bluefin-custom/commit/df3fdb70785a944e9e8d2e1b6141c1451c581912))
+
+
+### Reverts
+
+* "feat: Add Fedora 40 builds to Bluefin" ([#1053](https://github.com/thecooldaniel/bluefin-custom/issues/1053)) ([98c33c4](https://github.com/thecooldaniel/bluefin-custom/commit/98c33c4899a749220b62aa88b26999ce1f615494))
+* "fix: disable topgrade git extension" ([#1046](https://github.com/thecooldaniel/bluefin-custom/issues/1046)) ([29ef97b](https://github.com/thecooldaniel/bluefin-custom/commit/29ef97baec8e233fda9c48330cc87a48a070e7c6))
+
 ## [1.2.1](https://github.com/thecooldaniel/bluefin-custom/compare/v1.2.0...v1.2.1) (2024-03-25)
 
 
